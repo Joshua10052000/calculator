@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/globals.css" />
+    <link rel="stylesheet" href="./src/styles/calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main>
+      <article class="calculator-container">
+        <section class="calculator-container-display">
+          <span class="previous-display">100</span>
+          <span class="current-display">99</span>
+        </section>
+        <section class="calculator-container-buttons">
+          <button
+            tabindex="-1"
+            data-clear-btn="clear"
+            class="button-clear button-special"
+          >
+            AC
+          </button>
+          <button tabindex="-1" data-delete-btn="delete" class="button-special">
+            C
+          </button>
+          <button
+            tabindex="-1"
+            data-operator-btn="division"
+            class="button-special"
+          >
+            /
+          </button>
+          <button
+            tabindex="-1"
+            data-operator-btn="multiplication"
+            class="button-special"
+          >
+            x
+          </button>
+          <button tabindex="-1" data-number-btn="7">7</button>
+          <button tabindex="-1" data-number-btn="8">8</button>
+          <button tabindex="-1" data-number-btn="9">9</button>
+          <button
+            tabindex="-1"
+            data-operator-btn="subtraction"
+            class="button-special"
+          >
+            -
+          </button>
+          <button tabindex="-1" data-number-btn="5">5</button>
+          <button tabindex="-1" data-number-btn="6">6</button>
+          <button tabindex="-1" data-number-btn="4">4</button>
+          <button
+            tabindex="-1"
+            data-operator-btn="addition"
+            class="button-special"
+          >
+            +
+          </button>
+          <button tabindex="-1" data-number-btn="1">1</button>
+          <button tabindex="-1" data-number-btn="2">2</button>
+          <button tabindex="-1" data-number-btn="3">3</button>
+          <button
+            tabindex="-1"
+            data-equal-btn="equal"
+            class="button-equal button-special"
+          >
+            =
+          </button>
+          <button tabindex="-1" data-number-btn="0" class="button-zero">
+            0
+          </button>
+          <button tabindex="-1" data-number-btn=".">.</button>
+        </section>
+      </article>
+    </main>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
